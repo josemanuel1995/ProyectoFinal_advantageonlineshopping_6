@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.indra.runners.AdminCuentaRunners" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="22LAP5CD1346NKF" time="0.0">
+  <properties/>
+  <system-out><![CDATA[13:08:41.227 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\serenity.properties 
+13:08:41.368 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\serenity.properties 
+13:08:41.369 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\serenity.properties 
+13:08:41.379 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+13:08:41.379 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+13:08:41.379 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+13:08:41.379 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--incognito
+13:08:41.379 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+13:08:41.379 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+13:08:41.379 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://advantageonlineshopping.com
+13:08:41.379 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+13:08:41.379 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=7000
+13:08:41.380 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+13:08:41.380 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=12000
+13:08:41.380 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+13:08:41.651 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\serenity.properties 
+13:08:41.740 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\serenity.properties 
+13:08:41.740 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\serenity.properties 
+13:08:41.741 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+13:08:41.742 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+13:08:41.742 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+13:08:41.742 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--incognito
+13:08:41.742 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+13:08:41.742 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+13:08:41.742 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://advantageonlineshopping.com
+13:08:41.742 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+13:08:41.742 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=7000
+13:08:41.742 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+13:08:41.743 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=12000
+13:08:41.743 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+13:08:41.747 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+?[0m
+13:08:41.751 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6d71988c
+13:08:41.753 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: administrar mi cuenta
+13:08:41.808 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Deberia editar la cuenta cuando completa correctamente el formulario
+-------------------------------------------------------------------(administrar-mi-cuenta;deberia-editar-la-cuenta-cuando-completa-correctamente-el-formulario)
+13:08:41.881 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+13:08:41.881 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+13:09:11.292 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo
+-------------------------------------------------------------------(administrar-mi-cuenta;se-deben-ver-los-mensajes-de-campo-incorrecto-cuando-el-last-name-es-muy-largo)
+13:09:40.499 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Se debe ver el mensaje de campo incorrecto cuando los password no coinciden
+-------------------------------------------------------------------(administrar-mi-cuenta;se-debe-ver-el-mensaje-de-campo-incorrecto-cuando-los-password-no-coinciden)
+13:10:34.883 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+13:10:35.038 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+13:10:35.051 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 3 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@1a4d71d5
+13:10:35.052 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Deberia editar la cuenta cuando completa correctamente el formulario
+13:10:35.052 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo
+13:10:35.052 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Se debe ver el mensaje de campo incorrecto cuando los password no coinciden
+13:10:35.052 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1a4d71d5: Generating report for test outcome: administrar mi cuenta:Deberia editar la cuenta cuando completa correctamente el formulario
+13:10:35.052 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1a4d71d5: Generating report for test outcome: administrar mi cuenta:Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo
+13:10:35.052 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1a4d71d5: Generating report for test outcome: administrar mi cuenta:Se debe ver el mensaje de campo incorrecto cuando los password no coinciden
+13:10:35.056 [pool-1-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\target\site\serenity\3f5cae2224056cb3a1a41c2c54f1f2e670541ee776de94be7f91cfbfb5989703.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\target\site\serenity\3f5cae2224056cb3a1a41c2c54f1f2e670541ee776de94be7f91cfbfb5989703.json76513dae-a0dc-49cf-aede-92cd7b39c95d)
+13:10:35.056 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Deberia editar la cuenta cuando completa correctamente el formulario to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\target\site\serenity\37529bf21c699b1a01c6f9e21e9375e35d76a60035ad1c9ee595588c6a7cafc9.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\target\site\serenity\37529bf21c699b1a01c6f9e21e9375e35d76a60035ad1c9ee595588c6a7cafc9.json2af6ebcc-8f82-4e57-aba0-57c5fa4dced8)
+13:10:35.056 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Se debe ver el mensaje de campo incorrecto cuando los password no coinciden to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\target\site\serenity\92d98956e9c292f34335b49e24a6d4b05169428b866ae6c3d213306a25e3fe0d.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\target\site\serenity\92d98956e9c292f34335b49e24a6d4b05169428b866ae6c3d213306a25e3fe0d.json6a0dd47c-2d34-46a8-b5e3-ecca8b311891)
+13:10:35.108 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo done
+13:10:35.109 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Se debe ver el mensaje de campo incorrecto cuando los password no coinciden done
+13:10:35.109 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Deberia editar la cuenta cuando completa correctamente el formulario done
+13:10:35.109 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+13:10:35.110 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 59 ms
+13:10:35.110 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 3 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@614ce558
+13:10:35.110 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Deberia editar la cuenta cuando completa correctamente el formulario
+13:10:35.110 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo
+13:10:35.110 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Se debe ver el mensaje de campo incorrecto cuando los password no coinciden
+13:10:35.110 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@614ce558: Generating report for test outcome: administrar mi cuenta:Deberia editar la cuenta cuando completa correctamente el formulario
+13:10:35.110 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@614ce558: Generating report for test outcome: administrar mi cuenta:Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo
+13:10:35.111 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@614ce558: Generating report for test outcome: administrar mi cuenta:Se debe ver el mensaje de campo incorrecto cuando los password no coinciden
+13:10:35.111 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Se debe ver el mensaje de campo incorrecto cuando los password no coinciden in 92d98956e9c292f34335b49e24a6d4b05169428b866ae6c3d213306a25e3fe0d
+13:10:35.111 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo in 3f5cae2224056cb3a1a41c2c54f1f2e670541ee776de94be7f91cfbfb5989703
+13:10:35.111 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Deberia editar la cuenta cuando completa correctamente el formulario in 37529bf21c699b1a01c6f9e21e9375e35d76a60035ad1c9ee595588c6a7cafc9
+13:10:35.159 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+13:10:35.159 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+13:10:35.163 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+13:10:35.163 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+13:10:35.163 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+13:10:35.164 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+13:10:35.167 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+13:10:35.171 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.171 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Se debe ver el mensaje de campo incorrecto cuando los password no coinciden-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.171 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Deberia editar la cuenta cuando completa correctamente el formulario-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.173 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Deberia editar la cuenta cuando completa correctamente el formulario-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.173 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.173 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Se debe ver el mensaje de campo incorrecto cuando los password no coinciden-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.210 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.210 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Se debe ver el mensaje de campo incorrecto cuando los password no coinciden-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.211 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.212 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Se debe ver el mensaje de campo incorrecto cuando los password no coinciden-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.214 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Deberia editar la cuenta cuando completa correctamente el formulario-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.215 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Deberia editar la cuenta cuando completa correctamente el formulario-[]: Optional[Requirement{name='administrar mi cuenta', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+13:10:35.273 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 3f5cae2224056cb3a1a41c2c54f1f2e670541ee776de94be7f91cfbfb5989703_screenshots.html
+13:10:35.273 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 37529bf21c699b1a01c6f9e21e9375e35d76a60035ad1c9ee595588c6a7cafc9_screenshots.html
+13:10:35.273 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 92d98956e9c292f34335b49e24a6d4b05169428b866ae6c3d213306a25e3fe0d_screenshots.html
+13:10:35.629 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 3f5cae2224056cb3a1a41c2c54f1f2e670541ee776de94be7f91cfbfb5989703_screenshots.html in 356 ms
+13:10:35.629 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 92d98956e9c292f34335b49e24a6d4b05169428b866ae6c3d213306a25e3fe0d_screenshots.html in 356 ms
+13:10:35.629 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 37529bf21c699b1a01c6f9e21e9375e35d76a60035ad1c9ee595588c6a7cafc9_screenshots.html in 356 ms
+13:10:35.631 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR administrar mi cuenta:Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo in 3f5cae2224056cb3a1a41c2c54f1f2e670541ee776de94be7f91cfbfb5989703.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\target\site\serenity  
+13:10:35.631 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR administrar mi cuenta:Deberia editar la cuenta cuando completa correctamente el formulario in 37529bf21c699b1a01c6f9e21e9375e35d76a60035ad1c9ee595588c6a7cafc9.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\target\site\serenity  
+13:10:35.631 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR administrar mi cuenta:Se debe ver el mensaje de campo incorrecto cuando los password no coinciden in 92d98956e9c292f34335b49e24a6d4b05169428b866ae6c3d213306a25e3fe0d.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_6\target\site\serenity  
+13:10:35.633 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 92d98956e9c292f34335b49e24a6d4b05169428b866ae6c3d213306a25e3fe0d.html
+13:10:35.633 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 3f5cae2224056cb3a1a41c2c54f1f2e670541ee776de94be7f91cfbfb5989703.html
+13:10:35.633 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 37529bf21c699b1a01c6f9e21e9375e35d76a60035ad1c9ee595588c6a7cafc9.html
+13:10:35.732 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 3f5cae2224056cb3a1a41c2c54f1f2e670541ee776de94be7f91cfbfb5989703.html in 99 ms
+13:10:35.732 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Se deben ver los mensajes de campo incorrecto cuando el Last Name es muy largo done
+13:10:35.734 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 92d98956e9c292f34335b49e24a6d4b05169428b866ae6c3d213306a25e3fe0d.html in 101 ms
+13:10:35.734 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Se debe ver el mensaje de campo incorrecto cuando los password no coinciden done
+13:10:35.781 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 37529bf21c699b1a01c6f9e21e9375e35d76a60035ad1c9ee595588c6a7cafc9.html in 148 ms
+13:10:35.781 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome administrar mi cuenta:Deberia editar la cuenta cuando completa correctamente el formulario done
+13:10:35.781 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+13:10:35.781 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 671 ms
+13:10:35.912 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+13:10:35.913 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/test_advantageonlineshopping/admin_Cuenta.feature:31 ?[0m# Se debe ver el mensaje de campo incorrecto cuando los password no coinciden
+
+3 Scenarios (?[31m1 failed?[0m, ?[32m2 passed?[0m)
+9 Steps (?[31m1 failed?[0m, ?[32m8 passed?[0m)
+1m53,322s
+
+org.openqa.selenium.NoSuchElementException: Timed out after 12 seconds. Element not found
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '22LAP5CD1346NKF', ip: '192.168.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:166)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:118)
+	at net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:30)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:221)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:1118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at com.indra.actions.AdminCuentaActions.mensajesDePasswordDiferente(AdminCuentaActions.java:105)
+	at com.indra.stepsDefinitions.AdminCuentaSteps.se_muestran_el_mensaje_de_password_no_coinciden(AdminCuentaSteps.java:48)
+	at ?.se muestran el mensaje de password no coinciden(src/test/resources/features/test_advantageonlineshopping/admin_Cuenta.feature:35)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
